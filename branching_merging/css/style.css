@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rebeccapurple;
+  /* margin: 0 auto; */
+  /* text-align: center; */
+
+  margin: auto;
+  width: 800px;
+}
+
+.container {
+  width: 740px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.container p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+img {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 18px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid white;
+}
